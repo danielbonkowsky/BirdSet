@@ -35,6 +35,7 @@ class InferenceDataModule(BaseDataModuleHF):
             path=self.dataset_config.hf_path,
             cache_dir=self.dataset_config.data_dir,
             num_proc=3,
+            trust_remote_code=True,
         )
 
         if self.dataset_config.subset:
