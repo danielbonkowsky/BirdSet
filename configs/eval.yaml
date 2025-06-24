@@ -34,3 +34,6 @@ start_time: ${now:%Y-%m-%d_%H%M%S}
 dump_metrics: True
 
 batch_reduction: 1
+
+hydra:
+  strict: false
