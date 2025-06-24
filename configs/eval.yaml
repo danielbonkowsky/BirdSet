@@ -13,6 +13,7 @@ defaults:
   - experiment: null
   - hparams_search: null
   - debug: null
+  - batch_reduction: 1
 
   - override datamodule/transforms/waveform_augmentations: none.yaml
   - override datamodule/transforms/spectrogram_augmentations: none.yaml
@@ -32,5 +33,3 @@ test: True
 save_state_dict: True
 start_time: ${now:%Y-%m-%d_%H%M%S}
 dump_metrics: True
-
-batch_reduction: 1
