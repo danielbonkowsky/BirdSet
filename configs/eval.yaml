@@ -13,7 +13,6 @@ defaults:
   - experiment: null
   - hparams_search: null
   - debug: null
-  - batch_reduction: 1
 
   - override datamodule/transforms/waveform_augmentations: none.yaml
   - override datamodule/transforms/spectrogram_augmentations: none.yaml
