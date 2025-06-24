@@ -54,7 +54,7 @@ def eval(cfg):
         cfg.module,
         num_epochs=cfg.trainer.max_epochs,
         len_trainset=datamodule.len_trainset,
-        batch_size=(datamodule.loaders_config.train.batch_size // 2),
+        batch_size=(datamodule.loaders_config.train.batch_size // 3),
         pretrain_info=cfg.module.network.model.pretrain_info,
     )
 
