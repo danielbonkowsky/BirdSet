@@ -78,7 +78,6 @@ class PretrainDataModule(BaseDataModuleHF):
             cache_dir=self.dataset_config.data_dir,
             num_proc=3,
             trust_remote_code=True,
-            use_auth_token=os.getenv("HUGGINGFACE_HUB_TOKEN"),
         )
 
         if self.dataset_config.subset:
