@@ -40,7 +40,7 @@ Deep learning (DL) has greatly advanced audio classification, yet the field is l
 |        Train Subsets XCL!                    | [NES](https://zenodo.org/records/7525349)    |  Columbia Costa Rica soundscape test dataset and class-dedicated focal training subset.               | 16,117    | 24,480       | 0.76  | 89       |
 |                            | [UHH](https://zenodo.org/records/7078499)    |  Hawaiian Islands soundscape test dataset and class-dedicated focal training subset.               | 3,626     | 36,637       | 0.64  | 25       |
 |                            | [HSN](https://zenodo.org/records/7525805)    |  High Sierras Nevada soundscape test dataset and class-dedicated focal training subset.               | 5,460     | 12,000       | 0.54  | 21       |
-|                            | [NBP](https://link-to-birddb)                |  NIPS4BPlus test dataset and class-dedicated focal training subset.               | 24,327    | 563          | 0.92  | 51       |
+|                            | [NBP](https://github.com/fbravosanchez/NIPS4Bplus)             |  NIPS4BPlus test dataset and class-dedicated focal training subset.               | 24,327    | 563          | 0.92  | 51       |
 |                            | [SSW](https://zenodo.org/records/7018484)    |  Sapsucker Woods soundscape test dataset and class-dedicated focal training.               | 28,403    | 205,200      | 0.77  | 81       |
 |                            | [SNE](https://zenodo.org/records/7050014)    |  Sierre Nevada soundscape test dataset and class-dedicated focal training subset.               | 19,390    | 23,756       | 0.70  | 56       |
 
